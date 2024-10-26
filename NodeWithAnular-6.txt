@@ -1,0 +1,16 @@
+npm install -g @angular/cli
+ng new angularUI
+#-----create node server.js file outsie angularUI
+#init create package.json file for node
+npm init -y
+npm install express
+npm install nodemon
+nodemon server.js
+---run this ng build command on- inside angular main folder----folder name=angularUI
+
+ng build --configuration production
+
+
+
+https://medium.com/@AlexanderObregon/building-a-full-stack-application-integrating-angular-with-node-js-a264b7811946
+
